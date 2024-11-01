@@ -1,0 +1,95 @@
+.slf_fields:disabled {
+    background: #eaeaea;
+    color: #aaa;
+}
+.slf_fields{
+    width: 100%;
+}
+.slf_submit:disabled {
+    opacity: 0.5;
+}
+.slf_buttons{
+    width: 140px
+}
+.slf_previous{
+    opacity: 0.6 !important;
+}
+.slf_select {
+    width: 100%;
+    padding: 10px;
+}
+.slf_input_wrapper{
+    padding: 7px 10px;
+}
+.slf_button_wrapper {
+    text-align: right;
+    padding: 10px;
+}
+.slf_float_half {
+    width: 50%;
+    float: left;
+    
+}
+.slf_clear {
+    clear: both;
+}
+.slf_wrapper_header {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#slf_step_2, #slf_step_3{
+    display: none;
+}
+.success_container{ 
+    text-align: center;
+    color: #05b710;
+    border: 1px solid #7ef095;
+    padding: 10px 0px;
+    background-color: #dbffde;
+}
+.slf_modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100% !important; /* Full width */
+    max-width:  100% !important;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    height: 100%;
+}
+
+.slf_modal_content {
+    background-color: #fefefe;
+    margin: 50px auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    margin-bottom: 0px;
+    min-width: 350px;
+    max-width: 600px;
+
+  }
+  
+  /* The Close Button */
+  .slf_modal_close {
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 25px;
+    height: 35px;
+    background-color: #d21010;
+    color: #fff !important;
+    width: 35px;
+    text-align: center;
+    border-radius: 24px;
+  }
+  
+  .slf_modal_close:hover,
+  .slf_modal_close:focus {
+    background-color: #ac0202;
+    text-decoration: none;
+    cursor: pointer;
+  }
